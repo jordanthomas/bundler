@@ -22,6 +22,7 @@ module Spec
         `gem install rack --no-rdoc --no-ri`
         # ruby-graphviz is used by the viz tests
         `gem install ruby-graphviz --no-rdoc --no-ri` if RUBY_VERSION >= "1.9.3"
+        `gem install compact_index --no-rdoc --no-ri`
       end
 
       ENV["HOME"] = Path.home.to_s
